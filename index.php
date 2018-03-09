@@ -25,10 +25,10 @@
          <h1><img src="images/logo.png" style="height: 55px;"></h1>
          <nav>
             <ul>
-               <li><a href="https://ademi.org.ar/category/noticias/">Noticias</a></li>
-               <li><a href="https://ademi.org.ar/areas-de-trabajo/">Áreas de Trabajo</a>
-               <li><a href="https://ademi.org.ar/category/programas/">Programas</a>
-               <li><a href="https://ademi.org.ar/calendar/">Calendario</a></li>
+               <li><a href="https://ademi.org.ar/">ADEMI</a></li>
+               <li><a href="https://ademi.org.ar/blog/">Noticias</a>
+               <li><a href="https://ademi.org.ar/blog/calendario/">Calendario</a></li>
+               <li><a href="https://ademi.org.ar/blog/institucional/">Institucional</a>
                <li><button class="btn-block btn btn-primary" type="submit" onclick="window.location.href='#work'" id="formLogin_submitAuth">EMPEZA A APRENDER</button></li>
             </ul>
          </nav>
@@ -42,9 +42,10 @@
             <footer>
              
              
-               <a href="#five" class="button" style="background-color: #ba6a7c;">SOY EMPRENDEDOR</a>
-               <a href="#four" class="button" style="background-color:#5681a2">SOY PROFESIONAL</a>
-               <a href="#three" class="button" style="background-color:#d5ad60">SOY EMPRESARIO</a>
+               <a href="#five" class="button" style="background-color: #ff7043;">SOY EMPRENDEDOR</a>
+               <a href="#three" class="button" style="background-color:#f44336">SOY EMPRESARIO</a>
+               <a href="#four" class="button" style="background-color:#ffca28">SOY PROFESIONAL</a>
+              
              
             </footer>
          </div>
@@ -79,10 +80,6 @@
                <h2>Emprendedor</h2>
             </header>
             <p>Emprendedor es aquella persona que transforma una idea en acción y comienza a formar su negocio. Seguirá siéndolo hasta el momento que termine de transitar los pasos necesarios para formarse como una empresa constituida.</p>
-    
-                  <button class="btn-block btn btn-primary" type="submit" onclick="window.location.href='test.php'" id="formLogin_submitAuth">HACER EL TEST</button>
-      
-            
            
          </div>
 
@@ -145,10 +142,9 @@ Para consultar por nuestros servicios a empresas ingresa, completa el formulario
         </fieldset>
         <input name="_qf__formLogin" type="hidden" value="" id="formLogin__qf__formLogin">
 
-
- <a href="http://aulavirtual.emprendermisiones.com/main/auth/inscription.php">Quiero Registrarme</a>
-        </form>
-
+<br>
+<button class="btn-block btn btn-primary" type="submit" onclick="window.location.href='http://aulavirtual.emprendermisiones.com/main/auth/inscription.php'" id="formLogin_submitAuth">Quiero Registrarme</button>
+ 
 
 
 
@@ -156,31 +152,24 @@ Para consultar por nuestros servicios a empresas ingresa, completa el formulario
 
                <p>Por medio de esta herramienta, ADEMI facilita el acceso a entrenamientos para emprendedores y profesionales. Podes ingresar desde cualquier lugar, a cualquier hora y desde cualquier dispositivo.</p>
             </header>
-            <!-- Gallery  
-               <div class="gallery">
-               	<article class="from-left">
-               		<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
-               	</article>
-               	<article class="from-right">
-               		<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
-               	</article>
-               	
-               </div>
-               -->
+           
+              
          </div>
       </section>
-      <!-- Contact 
-         <section id="contact" class="main style3 secondary">
-         	<div class="content">
-         		<header>
-         			<h2>Say Hello.</h2>
-         			<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
-         		</header>
-         		
-         	</div>
-         </section>
-         
+     
+
+
          <!-- Footer -->
+
+
+          <center style="background-color: #39454b;">
+    <ul class="actions" style="padding-left: 0px;margin-bottom: 0px;">
+            <a href="https://ademi.org.ar/aulavirtual/"><img src="images/Aula_Pie.png" alt="" width="200"></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSxcyFVx-TG6yHdikgG77zRpIx-wLnnz_VHtqxag_BdhwUqQ/viewform?c=0&w=1"><img src="images/Incubate_Pie.png" alt="" width="200"></a>
+            <a href="http://registro.ademi.org.ar/"><img src="images/Profesionales_Pie.png" alt="" width="200"></a>
+            <a href="https://www.pymesmisiones.com.ar/"><img src="images/PymesMisiones_Pie.png" alt="" width="200"></a>
+    </ul>   
+</center> 
       <footer id="footer">
          <!-- Icons -->
          <ul class="actions">
@@ -190,7 +179,7 @@ Para consultar por nuestros servicios a empresas ingresa, completa el formulario
          </ul>
          <!-- Menu -->
          <ul class="menu">
-            <li> <a href="http://html5up.net">&copy; 2017 Agencia Para El Desarrollo Económico de Misiones</a></li>
+            <li> <a href="http://html5up.net">&copy; 2018 Agencia Para El Desarrollo Económico de Misiones</a></li>
          </ul>
       </footer>
       <!-- Scripts -->
