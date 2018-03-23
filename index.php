@@ -1,10 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-   Big Picture by HTML5 UP
-   html5up.net | @ajlkn
-   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-   asdasd-->
-
 <html>
    <head>
       <title>Aula virtual - ADEMI</title>
@@ -18,6 +12,10 @@
       <!--[if lte IE 9]>
       <link rel="stylesheet" href="assets/css/ie9.css" />
       <![endif]-->
+      <meta property="og:title" content="Aula Virtual ADEMI">
+      <meta property="og:site_name" content="Aula Virtual ADEMI">
+      <meta property="og:url" content="https://ademi.org.ar/aulavirtual/">
+      <meta property="og:image" content="https://ademi.org.ar/aulavirtual/images/portada.png">
    </head>
    <body>
       <!-- Header -->
@@ -37,21 +35,42 @@
       <section id="intro" class="main style1 dark fullscreen">
          <div class="content">
             <header>
-               <h2>Bienvenido</h2>
+               <h2>Bienvenido al  Aula Virtual ADEMI</h2>
             </header>
             <footer>
-             
-             
-               <a href="#five" class="button" style="background-color: #ff7043;">SOY EMPRENDEDOR</a>
-               <a href="#three" class="button" style="background-color:#f44336">SOY EMPRESARIO</a>
-               <a href="#four" class="button" style="background-color:#ffca28">SOY PROFESIONAL</a>
-              
-             
+             <!--
+               <a href="#five" class="button" style="background-color: #ff7043; width: 135px;padding-left: 0px;padding-right: 0px;">EMPRENDEDOR</a>
+               <a href="#three" class="button" style="background-color:#f44336;width: 135px;padding-left: 0px;padding-right: 0px;"">EMPRESARIO</a>
+               <a href="#four" class="button" style="background-color:#ffca28;width: 135px;padding-left: 0px;padding-right: 0px;"">PROFESIONAL</a>
+               <a href="#four" class="button" style="background-color:#4caf50;width: 180px;padding-left: 0px;padding-right: 0px;"">DESARROLLO LOCAL</a>-->
             </footer>
          </div>
          <a href="#one" class="button style2 down anchored">More</a>
       </section>
       <!-- One -->
+      <style type="text/css">
+         /* YouTube Responsive CSS for HubSpot */
+
+.hs-responsive-embed-youtube {
+
+position: relative;
+
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+
+padding-top: 25px;
+
+}
+
+.hs-responsive-embed-youtube iframe {
+
+position: absolute;
+
+width: 100%!important;
+
+height: 100%!important;
+
+}
+      </style>
       <section id="one" class="main style2 right dark fullscreen">
           <a href="#intro" class="button style2 down anchored">Next</a>
          <div class="content box style2">
@@ -59,6 +78,9 @@
                <h2>¿Qué es el Aula Virtual ADEMI? </h2>
             </header>
             <p>El Aula Virtual ADEMI es una propuesta impulsada desde la Agencia para el Desarrollo Económico de Misiones (ADEMI) que busca facilitar el acceso a entrenamientos para emprendedores y profesionales.</p>
+            
+<div class="hs-responsive-embed-youtube">
+            <iframe width="360" height="252" src="https://www.youtube.com/embed/ui7VIO_gk-4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="left: 0px;top: 0px;"></iframe></div>
          </div>
          <a href="#two" class="button style2 down anchored">Next</a>
       </section>
@@ -123,7 +145,7 @@ Para consultar por nuestros servicios a empresas ingresa, completa el formulario
                             <div class="input-group-addon">
            
                 </div>
-                            <input id="login" autofocus="autofocus" placeholder="Nombre de usuario" autocapitalize="none" class="form-control" name="login" type="text">
+                            <input id="login"  placeholder="Nombre de usuario" autocapitalize="none" class="form-control" name="login" type="text">
                         </div>
 
                         <br>
@@ -143,12 +165,7 @@ Para consultar por nuestros servicios a empresas ingresa, completa el formulario
         <input name="_qf__formLogin" type="hidden" value="" id="formLogin__qf__formLogin">
 
 <br>
-<button class="btn-block btn btn-primary" type="submit" onclick="window.location.href='http://aulavirtual.emprendermisiones.com/main/auth/inscription.php'" id="formLogin_submitAuth">Quiero Registrarme</button>
- 
-
-
-
-
+<button class="btn-block btn btn-primary"><a href="https://aulavirtual.emprendermisiones.com/main/auth/inscription.php">Quiero Registrarme</a></button>
 
                <p>Por medio de esta herramienta, ADEMI facilita el acceso a entrenamientos para emprendedores y profesionales. Podes ingresar desde cualquier lugar, a cualquier hora y desde cualquier dispositivo.</p>
             </header>
@@ -175,7 +192,7 @@ Para consultar por nuestros servicios a empresas ingresa, completa el formulario
          <ul class="actions">
             <li><a href="https://twitter.com/AgenciaADEMI" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
             <li><a href="https://www.facebook.com/fundacion.ademi/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="https://www.youtube.com/channel/UCeHjdmIRUu4CoqF5a8EObQA" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+            <li><a href="https://www.youtube.com/channel/UCwQSYtpPa8GeeSdWltrGmVg" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
          </ul>
          <!-- Menu -->
          <ul class="menu">

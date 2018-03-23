@@ -2072,6 +2072,9 @@
 		}
 
 		@media screen and (max-width: 736px) {
+			.android-wear-band{
+	
+			}
 
 			#footer ul.menu li {
 				border-left: 0;
